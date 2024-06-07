@@ -73,8 +73,4 @@ public class animalInfo {
             return null;
         }
     }
-
-    public static void main(String[] args) {
-        selectRandomWord();
-    }
 }
