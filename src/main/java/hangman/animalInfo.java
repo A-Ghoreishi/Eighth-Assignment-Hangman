@@ -57,6 +57,8 @@ public class animalInfo {
         } catch (IOException | JSONException e) {
             e.printStackTrace();
         }
+
+        selectRandomWord();
     }
 
     /**
@@ -73,4 +75,13 @@ public class animalInfo {
             return null;
         }
     }
+
+//    public static void main(String[] args) throws IOException {
+//        fetchAnimals("a");
+//        String randomAnimal = selectRandomWord();
+//        System.out.println(randomAnimal);
+////        for(String a: animals){
+////            System.out.println(a);
+////        }
+//    }
 }
